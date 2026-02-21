@@ -106,3 +106,35 @@ Implémente une recherche exhaustive :
 ### 6.2 Lancement
 ```bash
 python Projet_AAC.py
+===================================
+Univers U : {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+Sous-ensembles :
+S1 = {1, 3, 5}
+S2 = {2, 4, 6}
+S3 = {1, 2, 7}
+S4 = {3, 8, 9}
+S5 = {4, 10}
+S6 = {5, 6, 7}
+S7 = {8, 9}
+S8 = {10}
+
+===================================
+Résultats
+-----------------------------------
+Solution gloutonne :
+{1, 3, 5}
+{2, 4, 6}
+{7}
+{8, 9}
+{10}
+Taille gloutonne : 5
+
+Solution optimale :
+{1, 3, 5}
+{2, 4, 6}
+{7}
+{8, 9, 10}
+Taille optimale : 4
+
+Ratio d’approximation : 1.25
+===================================
